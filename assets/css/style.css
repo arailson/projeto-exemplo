@@ -1,3 +1,26 @@
 body{
     margin: 0px;
 }
+.cabecalho{
+    background: linear-gradient(45deg, #fff, #0027e5);
+    padding: 12px;
+}
+.cabecalho img{
+    max-width: 200px;
+    width: auto;
+}
+.menu{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+.menu a{
+    text-decoration: none;
+    font-weight: bold;
+    color: blue;
+    margin-right: 15px;
+    font-family: monospace;
+    font-size: 18px;
+    border: 1px solid blue;
+    padding: 8px;
+}
