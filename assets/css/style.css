@@ -1,5 +1,6 @@
 body{
     margin: 0px;
+    font-family: monospace;
 }
 .cabecalho{
     background: linear-gradient(45deg, #fff, #0027e5);
@@ -12,14 +13,13 @@ body{
 .menu{
     display: flex;
     justify-content: center;
-    margin-top: 15px;
+    margin: 15px 0px;
 }
 .menu a{
     text-decoration: none;
     font-weight: bold;
     color: blue;
     margin-right: 15px;
-    font-family: monospace;
     font-size: 18px;
     border: 1px solid blue;
     padding: 8px;
